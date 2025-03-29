@@ -1,0 +1,11 @@
+.course-root {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  width: 300px;
+  height: fit-content;
+}
