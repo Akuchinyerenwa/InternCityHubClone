@@ -11,7 +11,7 @@ export const Header = () => {
       <Logo />
       <div className="header-links">
         <Nav />
-        <Button title="Apply Now" link="/register"/>
+        <Button title="Apply Now" link="#/register"/>
       </div>
     </div>
   )
