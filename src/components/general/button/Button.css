@@ -6,6 +6,8 @@
   border: none;
   cursor: pointer;
   overflow: hidden;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .button-root a {
