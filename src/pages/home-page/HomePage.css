@@ -5,11 +5,19 @@
   padding: 30px;
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.home-page-root a {
+.courses {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
-  height: 100%;
-  display: inline-block;
+  align-items: center;
+}
+
+.home-page-root h1 {
+  color: aliceblue;
+  text-align: center;
 }
