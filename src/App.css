@@ -1,3 +1,13 @@
-.hello {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.app-root {
   border: 1px solid red;
+  width: 100vw;
+  height: 500px;
 }
