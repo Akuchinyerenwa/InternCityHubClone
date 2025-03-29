@@ -8,7 +8,7 @@ export const Course = ({title, description}) => {
     <div className="course-root">
       <h3>{title}</h3>
       <p>{description}</p>
-      <Button title="Apply" />
+      <Button title="Apply" link={`/register?name=${title.toLowerCase()}`}/>
     </div>
   )
 }
