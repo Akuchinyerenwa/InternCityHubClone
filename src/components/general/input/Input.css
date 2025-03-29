@@ -1,0 +1,11 @@
+
+.input-root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-root input {
+  height: 40px;
+  padding: 5px;
+}
