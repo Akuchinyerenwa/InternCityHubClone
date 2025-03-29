@@ -1,5 +1,15 @@
 
 
 .register-page-root {
-  padding: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.register-page-root form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
