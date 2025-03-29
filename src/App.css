@@ -4,10 +4,9 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  overflow-x: hidden;
 }
 
 .app-root {
-  border: 1px solid red;
   width: 100vw;
-  height: 500px;
 }
